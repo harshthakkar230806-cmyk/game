@@ -1,0 +1,38 @@
+{
+  "name": "galaxy-tycoon",
+  "version": "1.0.0",
+  "description": "GALAXY TYCOON - A polished browser-based space exploration and empire-building game.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "keywords": ["game", "threejs", "react", "space", "tycoon"],
+  "author": "Galaxy Tycoon Team",
+  "license": "MIT",
+  "dependencies": {
+    "@react-three/fiber": "^8.15.12",
+    "@react-three/drei": "^9.93.2",
+    "clsx": "^2.1.3",
+    "confetti": "^7.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
+    "three": "^0.166.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^9.0.1",
+    "eslint-plugin-react-hooks": "^4.24.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
+  }
+}
